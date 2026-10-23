@@ -10,12 +10,13 @@ dynamic = ["version"]
 dependencies = [
     "pycryptodome",
     "python-jose~=3.5.0",
-    "cryptography~=42.0.5",
+    "cryptography>=44.0.1,<47.0.0",
     "urllib3",
     "xmltodict",
     "defusedxml",
     "paramiko~=4.0.0",
-    "python-gnupg"
+    "python-gnupg",
+    "rsa"
 ]
 
 [build-system]
